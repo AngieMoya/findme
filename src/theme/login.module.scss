@@ -1,0 +1,122 @@
+.loginBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(150, 159, 170, 0.15);
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 715px;
+    background-color: #fff;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.formContainer > *{
+    width: 80%;
+}
+
+.title{
+    color: #022C64;
+    font-family: 'Rosario', sans-serif;
+    text-align: center;
+}
+.text{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formInput{
+    width: 287px;
+    height: 50px;
+    color: #8492A6;
+    border-style: none;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: 'Rosario', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.formButton1{
+    border-style: none;
+    border-radius: 24px;
+    width: 288.5px;
+    height: 50px;
+    background-color: #0096C7;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.formButton2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid;
+    width: 288px;
+    height: 50px;
+    background-color: #fff;
+    color: #022C64;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.formButton3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid;
+    width: 288px;
+    height: 50px;
+    background-color: #fff;
+    color: #0179B1;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.iconButton2{
+    width: 25px;
+    margin-left: 5px;
+}
+
+.iconButton3{
+    width: 30px;
+    margin-left: 5px;
+}
+
+.formLinks{
+    text-decoration: none;
+    color: #022C64;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
